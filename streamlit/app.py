@@ -26,8 +26,8 @@ def _get_secret(path: str, default: Optional[str] = None) -> Optional[str]:
 def build_connection_params() -> dict:
     return {
         "account": _get_secret("snowflake.account", "bp78023.us-east-2.aws"),
-        "user": _get_secret("snowflake.user", "Karthileo"),
-        "password": _get_secret("snowflake.password","Karthik#19970612"),
+        "user": _get_secret("snowflake.user", "USERNAME"),
+        "password": _get_secret("snowflake.password","PASSWORD"),
         "warehouse": _get_secret("snowflake.warehouse", "WALMART_WH"),
         "database": _get_secret("snowflake.database", "WALMART_DB"),
         "schema": _get_secret("snowflake.schema", "GOLD"),
