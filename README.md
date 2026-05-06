@@ -87,6 +87,22 @@ Metrics:
 
 ---
 
+## Screenshots
+
+### Dashboard Overview
+![Dashboard](screenshots/Dashboard_1.png)
+
+### Sales & Insights
+![Dashboard Insights](screenshots/Dashboard_2.png)
+
+### Snowflake Tables
+![Snowflake Tables](screenshots/Snowflake_Tables.png)
+
+### dbt Lineage
+![dbt Lineage](screenshots/dbt_Lineage.png)
+
+---
+
 ## How to Run
 
 ```bash
